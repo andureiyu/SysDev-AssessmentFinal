@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "/images/librarymanagementphoto.png",
+    "name": "Library Management System",
+    "description": "A simple Java GUI prototype system to manage book borrowing and returning.<ul>  <p>Members:</p>  <ul><li>Tristan James Sintos</li><li>Michael Andrei Niñora</li></ul>"
+  },
+  {
+    "id": 2,
+    "image": "/images/TimeKiwiProg.jpg",
+    "name": "TimeKiwi Productivity Timer",
+    "description": "A kiwi-themed Pomodoro timer for productivity use. (in progress)"
+  },
+  {
+    "id": 3,
+    "image": "/images/valicon.png",
+    "name": "Valentine's Day Letter",
+    "description": "A simple webpage to send a Valentine's Day Letter to express.(HAHAHAHAHA)"
+  },
+  {
+    "id": 4,
+    "image": "/images/webportfolioimg2.png",
+    "name": "Portfolio Website",
+    "description": "A personal portfolio webpage showcasing my work in cinematography (inspired by linktree)."
+  }
+]
