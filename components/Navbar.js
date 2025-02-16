@@ -1,18 +1,36 @@
+import { motion } from "framer-motion";
+
 export default function Navbar() {
-    return (
-      <nav className="bg-[#1db954] p-4 shadow-md">
-        <ul className="flex space-x-8 justify-center text-white font-sans">
-          <li className="font-urbanist hover:text-yellow-300 transition-all duration-200 ">
-            <a href="/">Home</a>
-          </li>
-          <li className="font-urbanist hover:text-yellow-300 transition-all duration-200">
-            <a href="/projects">Projects</a>
-          </li>
-          <li className=" font-urbanist hover:text-yellow-300 transition-all duration-200">
-            <a href="/collaborations">Collaborations</a>
-          </li>
-        </ul>
-      </nav>
-    );
-  }
-  
+  const hoverAnimation = {
+    scale: 1.1,
+    color: "#F8DE7E", 
+    transition: { duration: 0.3 },
+  };
+
+  return (
+    <nav className="bg-[#1db954] p-4 shadow-md">
+      <ul className="flex space-x-8 justify-center text-white font-sans">
+        <motion.li
+          whileHover={hoverAnimation}
+          className="font-urbanist cursor-pointer font-bold"
+        >
+          <a href="/">Home</a>
+        </motion.li>
+
+        <motion.li
+          whileHover={hoverAnimation}
+          className="font-urbanist cursor-pointer font-bold"
+        >
+          <a href="/projects">Projects</a>
+        </motion.li>
+
+        <motion.li
+          whileHover={hoverAnimation}
+          className="font-urbanist cursor-pointer font-bold"
+        >
+          <a href="/collaborations">Collaborations</a>
+        </motion.li>
+      </ul>
+    </nav>
+  );
+}
