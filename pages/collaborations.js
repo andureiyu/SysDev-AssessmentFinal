@@ -11,7 +11,7 @@ export default function Collaborations() {
     }, []);
 
     return (
-        <div className="min-h-screen p-8 bg-[#212121]">
+        <div className="min-h-screen p-8  bg-gradient-to-b from-[#2e2555] to-[#212121]">
         <h1 className="text-4xl font-bold text-center mb-8 text-white font-serif">
           Collaborations
         </h1>

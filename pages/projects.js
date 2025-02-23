@@ -17,7 +17,7 @@ export default function Projects() {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -50 }}
       transition={{ duration: 0.6, ease: "easeInOut" }}
-      className="min-h-screen bg-[#212121] p-6 sm:p-8"
+      className="min-h-screen bg-[#212121] p-6 sm:p-8  bg-gradient-to-b from-[#2e2555] to-[#212121]"
     >
       <motion.h1
         initial={{ opacity: 0, x: -100 }}

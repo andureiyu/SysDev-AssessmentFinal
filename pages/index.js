@@ -9,10 +9,10 @@ export default function Home() {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -50 }}
       transition={{ duration: 0.6, ease: "easeInOut" }}
-      className="relative h-screen bg-[#212121] text-white"
+      className="relative h-screen bg-gradient-to-b from-[#2e2555] to-[#212121] text-white"
     >
       {/* Main */}
-      <div className="flex flex-col-reverse lg:flex-row items-center justify-center h-[80%] px-4 sm:px-6 lg:px-10">
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-center h-[80%] px-4 sm:px-6 lg:px-10 mb-20">
         {/* Text Section */}
         <div className="max-w-lg text-center lg:text-left lg:pr-10">
           <motion.h1
@@ -55,6 +55,14 @@ export default function Home() {
             className="object-cover"
           />
         </motion.div>
+      </div>
+
+      <div className="flex items-center justify-center my-10">
+        <div className="w-1/4 border-t border-gray-300"></div>
+        <p className="mx-4 text-gray-300 font-bold tracking-wide">
+          Just want to make it simple
+        </p>
+        <div className="w-1/4 border-t border-gray-300"></div>
       </div>
     </motion.div>
   );
